@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef5ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 45px;
+}
+
+.tagline {
+    text-align: center;
+    color: #666;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complaint-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.complaint-card h3 {
+    margin-top: 0;
+}
+
+.status-select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.delete-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
